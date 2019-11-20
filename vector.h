@@ -132,7 +132,7 @@ int front (vector v)
 
 int back (vector v)
 {
-	return *(end (v) - 1);
+	return *at (v, v.size - 1);
 }
 
 int* begin (vector v)
